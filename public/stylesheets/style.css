@@ -1,0 +1,122 @@
+#preLoad {
+  z-index: -100;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+@keyframes FADE_IN {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes FADE_OUT {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes FADE_IN_60 {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: .6; } }
+
+@keyframes FADE_OUT_60 {
+  0% {
+    opacity: .6; }
+  100% {
+    opacity: 0; } }
+
+.fadeOut {
+  animation-name: FADE_OUT;
+  animation-duration: .4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1; }
+
+.fadeIn {
+  animation-name: FADE_IN;
+  animation-duration: .4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1; }
+
+.fadeOut60 {
+  animation-name: FADE_OUT_60;
+  animation-duration: .4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1; }
+
+.fadeIn60 {
+  animation-name: FADE_IN_60;
+  animation-duration: .4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1; }
+
+.badInput {
+  background-color: #ffd5d5;
+  border-top-color: #ee0a0a !important; }
+  .badInput::-webkit-input-placeholder {
+    color: #ee0a0a !important; }
+
+.rotate90 {
+  transition: .25s;
+  transform: rotate(90deg); }
+
+.rotate-90 {
+  transition: .25s;
+  transform: rotate(-90deg); }
+
+.headerLight {
+  font-size: 20px;
+  font-weight: 300; }
+
+.italic {
+  font-style: italic; }
+
+.bug {
+  border: 1px solid red; }
+
+.vertical {
+  flex-direction: column; }
+
+.horizontal {
+  flex-direction: row; }
+
+.center {
+  justify-content: center;
+  align-items: center; }
+
+.none {
+  display: none; }
+
+.fullwidth {
+  width: 100vw;
+  max-width: 100%; }
+
+.fullHeight {
+  height: 100vh;
+  max-height: 100%; }
+
+.hide {
+  visibility: hidden; }
+
+.dim {
+  opacity: .5; }
+
+.link {
+  color: #676767;
+  text-decoration: none; }
+
+.selectedLink {
+  color: #151718; }
+
+.semibold, .selectedLink {
+  font-weight: 600; }
+
+body {
+  margin: 0;
+  overflow: hidden; }
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif; }
